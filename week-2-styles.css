@@ -1,0 +1,132 @@
+
+  body {
+    background-color:rgb(128, 122, 133);
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 0;
+    margin: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.navclass {
+    background-color:palevioletred;
+}
+
+.button {
+    background-color: #1b1b27;
+    color: #c2c2ce; 
+    text-align: center;
+    padding: 15px 32px;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+.cafeSoleil{
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family:'Roboto Mono', monospace;
+    font-size: xxx-large;
+    color: #c2c2ce;
+    border-width: thick;
+    width: 100%;
+}
+
+.values {
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family:'Roboto Mono', monospace;
+}
+
+  h2{
+    font-family: 'Roboto Mono', monospace;
+    color: #c2c2ce;
+    font-weight: 500;
+  }
+
+  .cafepano {
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 0em;
+    padding-right: 0em;
+    opacity: 0.6;
+}
+  
+.menuContainer {
+    margin-top: 100px;
+    margin-left: 30px;
+    min-height: 10em;
+    vertical-align: middle;
+}
+
+.theMenu {
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    font-weight: bold;
+    max-width: 100%;
+    text-align: left;
+}
+
+ul {
+    margin: 0;
+    padding: 10px 25px;
+    border: 1px;
+    border-top: none;
+}
+
+ul li {
+    list-style: none;
+    size: 5px 0;
+    font-size: 16px;
+}
+
+ul li input[type="checkbox"] 
+{ 
+    display: none;
+}
+
+ul li span.list {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 5px;
+    transition: 0.5s;
+
+}
+
+ul li input[type= "checkbox"]:checked ~ span.list
+{
+  color: palevioletred;
+}
+
+ul li span.list:before
+{
+    content: '' ;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background: palevioletred;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+
+}
+
+ul li input[type= "checkbox"]:checked ~ span.list::before
+{
+    left: 100%;
+    transition-delay: 00.5s;
+}
+
+.contact {
+    margin-top: 25px;
+    padding-bottom: 0;
+    margin: 0;
+    width: 100%;
+    color: #c2c2ce; 
+    text-align: center;
+}
+
