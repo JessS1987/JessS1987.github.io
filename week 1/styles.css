@@ -1,0 +1,32 @@
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+#pics {
+    
+        position:relative;
+    }
+
+
+#Otis {
+    float: left;
+    width: 300px;
+    height: 300px;
+    border: 3px dotted #2321ad;
+
+}
+#Dylan {
+    float: right;
+    width: 300px;
+    height: 300px;
+    border: 3px solid #2321ad;
+}
+
+#footer {
+    clear: both;
+    bottom: 0;
+}
