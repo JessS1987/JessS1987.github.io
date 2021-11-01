@@ -5,27 +5,27 @@ function sum(num1, num2) {
     return num1 + num2;
 }
 
-//Substract function
+//subtract function
 function subtract(num1, num2) {
     return num1 - num2;
 }
 
-//Divide function
+//sivide function
 function divide(num1, num2) {
     return num1 / num2;
 }
 
-//Multiply function
+//multiply function
 function multiply(num1, num2) {
     return num1 * num2;
 }
 
-//Power function
+//power function
 function power(num1, num2) {
     return num1 ** num2;
 }
 
-//Square function
+//square root function
 function squareRoot(num1, num2) {
    return Math.sqrt(num1);
    return Math.sqrt(num2);
