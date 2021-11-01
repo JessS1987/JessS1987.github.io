@@ -10,7 +10,7 @@ function subtract(num1, num2) {
     return num1 - num2;
 }
 
-//sivide function
+//divide function
 function divide(num1, num2) {
     return num1 / num2;
 }
@@ -30,7 +30,6 @@ function squareRoot(num1, num2) {
    return Math.sqrt(num1);
    return Math.sqrt(num2);
 }
-
 
 let operator = prompt("Enter operator ( either +, -, /, x, power or square root): ");
 
@@ -54,5 +53,5 @@ let result;
 } else if (operator == "square root"){
    alert (`The square roots of ${num1} and ${num2} are ${Math.sqrt(num1)} and ${Math.sqrt(num2)}`);
 } else 
-  alert(`uh oh! somethings gone awry!`)
+  alert(`uh oh! somethings gone awry!`);
    
